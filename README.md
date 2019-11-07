@@ -45,4 +45,35 @@ int x = 1;
 ```
 	This is tabbed in once
 	It also can be used for code
-	
+
+```Java
+int x =1;
+```
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<!--head is the meta data -->
+	<title>My Page</title>
+	<style>
+	/*CSS goe here*/
+	</style>
+</head>
+<body>
+	<nav>
+		
+		
+	</nav>
+	<h1>Hello world Web Page</h1>
+	<p>Sample web page</p>
+	<script> 
+		alert('this is a Page');
+		function runThisSometimes(){
+			alert('run this sometimes');
+		}
+	</script>
+<button onclick="runThisSometimes()">Run This Sometimes</button>
+</body>
+</html>
+```
