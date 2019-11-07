@@ -35,3 +35,6 @@ this is a `highlight` for indididual words / block of text
 We can use regular html for images 
 
 <img src="https://www.theinquirer.net/w-images/227e5a46-4c9e-4fd5-be3e-0e5bda7cc21b/2/emojiupdate20179-580x358.png" width="150"/>
+
+we can create an underline
+<span style="text-decoration:underline;">underline</span> text
