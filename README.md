@@ -38,3 +38,11 @@ We can use regular html for images
 
 we can create an underline
 <span style="text-decoration:underline;">underline</span> text
+
+### Code Highlighting
+```
+int x = 1;
+```
+	This is tabbed in once
+	It also can be used for code
+	
