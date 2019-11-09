@@ -15,11 +15,36 @@
 	<h1>Hello world Web Page</h1>
 	<p>Sample web page</p>
 	<script> 
-		alert('this is a Page');
+
+		var thisIsAGlobalScrope = 22;
+		var myArray = [];
+		// alert('this is a Page');
 		function runThisSometimes(){
-			alert('run this sometimes');
+			//alert('run this sometimes');
+			thisIsAGlobalScrope+=10;
+			console.log(thisIsAGlobalScrope);
+			document.getElementById("putSomeDataHere").innerText=thisIsAGlobalScrope;
+			myArray.push(thisIsAGlobalScrope);
+			console.log(myArray);
 		}
+		function popFromArray(){
+			myArray.pop();
+			console.log(myArray);
+		}
+		console.log(thisIsAGlobalScrope);
 	</script>
 <button onclick="runThisSometimes()">Run This Sometimes</button>
+<button onclick="popFromArray()">Pop From Array</button>
+<ul>
+	<li>item</li>
+	<li>item</li>
+	<li>item</li>
+</ul>
+<ol>
+	<li>item</li>
+	<li>item</li>
+	<li>item</li>
+</ol>
+<div id="putSomeDataHere">Some Data Goes here</div>
 </body>
 </html>
